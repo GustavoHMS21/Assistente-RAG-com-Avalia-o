@@ -1,0 +1,27 @@
+[
+  {
+    "id": "Q01",
+    "question": "Quantos dias de férias posso vender?",
+    "expected_document_id": "POL-RH-003"
+  },
+  {
+    "id": "Q02",
+    "question": "Posso trabalhar remotamente todos os dias da semana?",
+    "expected_document_id": "POL-RH-002"
+  },
+  {
+    "id": "Q03",
+    "question": "Quem pode acessar meus dados pessoais?",
+    "expected_document_id": "POL-RH-001"
+  },
+  {
+    "id": "Q04",
+    "question": "Qual é o prazo para enviar um atestado médico?",
+    "expected_document_id": "POL-RH-003"
+  },
+  {
+    "id": "Q05",
+    "question": "Preciso da aprovação do gestor para trabalhar de casa?",
+    "expected_document_id": "POL-RH-002"
+  }
+]

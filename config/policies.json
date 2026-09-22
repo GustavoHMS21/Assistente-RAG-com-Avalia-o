@@ -1,0 +1,37 @@
+{
+  "politica_privacidade_colaboradores.pdf": {
+    "title": "Política de Privacidade e Proteção de Dados dos Colaboradores",
+    "code": "POL-RH-001",
+    "version": "1.0",
+    "effective_date": "2026-01-01",
+    "category": "Privacidade e proteção de dados",
+    "expected_phrases": [
+      "Quem pode visualizar os dados",
+      "Lei nº 13.709/2018"
+    ]
+  },
+  "politica_trabalho_remoto.pdf": {
+    "title": "Política de Trabalho Remoto e Jornada Flexível",
+    "code": "POL-RH-002",
+    "version": "1.0",
+    "effective_date": "2026-01-01",
+    "category": "Trabalho remoto",
+    "expected_phrases": [
+      "até dois dias por semana",
+      "aprovados pelo gestor"
+    ]
+  },
+  "politica_ferias_ausencias_licencas.pdf": {
+    "title": "Política de Férias Ausências e Licenças",
+    "code": "POL-RH-003",
+    "version": "1.0",
+    "effective_date": "2026-01-01",
+    "category": "Férias ausências e licenças",
+    "expected_phrases": [
+      "converter até 10 dias",
+      "45 dias de antecedência",
+      "em até 48 horas"
+    ]
+  }
+}
+

@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+data/processed/*.json
+!data/processed/.gitkeep
+
+# Arquivos e configurações locais do Claude Code (não devem ir para o repositório).
+.claude/
+

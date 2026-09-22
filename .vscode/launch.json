@@ -1,0 +1,47 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Extrair políticas",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}\\extract_policies.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Criar chunks",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}\\build_chunks.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Gerar embeddings",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}\\build_embeddings.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Pesquisar políticas",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}\\search_policies.py",
+      "args": ["Quantos dias de férias posso vender?"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Perguntar ao ProcedIA",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}\\ask_policies.py",
+      "args": ["Quantos dias de férias posso vender?"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
