@@ -12,6 +12,7 @@ Abra a pasta **Projeto RH** e use **Terminal > Executar Tarefa**.
 6. **Avaliar busca semântica** — calcula Hit@3 com perguntas conhecidas.
 7. **Perguntar ao assistente de RH** — recupera evidências e gera uma resposta pelo Ollama local.
 8. **Executar todos os testes** — verifica todas as etapas do projeto.
+9. **Abrir interface web** — abre a versão em navegador (Streamlit) em http://localhost:8501.
 
 ## Configurar o Ollama
 
@@ -53,6 +54,10 @@ Também é possível usar o terminal:
 python ask_policies.py "Quantos dias de férias posso vender?"
 ```
 
+## Usar a interface web
+
+Execute a tarefa **9. Abrir interface web** (ou `streamlit run app.py` no terminal) e acesse http://localhost:8501 no navegador. A tela mostra um campo para a pergunta, um botão "Perguntar" e, no painel lateral, ajustes de quantos trechos buscar e o limite mínimo de relevância. A resposta e as fontes aparecem na própria página, sem precisar do terminal.
+
 ## Proteções implementadas
 
 - Nenhuma chave de API é usada; tudo roda localmente.
@@ -68,4 +73,4 @@ Como a geração roda na sua máquina (CPU, salvo se houver GPU compatível), as
 
 ## Próxima etapa
 
-Criar a interface Streamlit para reunir pergunta, resposta e fontes em uma tela simples.
+Refinar a interface Streamlit (histórico de perguntas, exportação de respostas).

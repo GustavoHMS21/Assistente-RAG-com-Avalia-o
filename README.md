@@ -30,6 +30,7 @@ Fontes verificadas localmente
 - `paraphrase-multilingual-MiniLM-L12-v2`
 - Ollama (servidor local de LLMs)
 - Modelo `qwen3.5:4b`
+- Streamlit
 - unittest
 
 ## Segurança e fundamentação
@@ -56,6 +57,7 @@ Projeto RH/
 │   ├── retriever.py
 │   └── settings.py
 ├── tests/
+├── app.py
 ├── ask_policies.py
 ├── build_chunks.py
 ├── build_embeddings.py
@@ -67,12 +69,18 @@ Projeto RH/
 
 ## Executar
 
-No VS Code, use **Terminal > Executar Tarefa** e siga as tarefas numeradas de 1 a 8.
+No VS Code, use **Terminal > Executar Tarefa** e siga as tarefas numeradas de 1 a 9.
 
 Para uma pergunta completa pelo terminal:
 
 ```powershell
 python ask_policies.py "Qual é o prazo para enviar um atestado?"
+```
+
+Para abrir a interface web:
+
+```powershell
+streamlit run app.py
 ```
 
 ## Resultado atual
@@ -91,4 +99,4 @@ python ask_policies.py "Qual é o prazo para enviar um atestado?"
 
 ## Próxima etapa
 
-Construir a interface Streamlit.
+Refinar a interface Streamlit (histórico de perguntas, exportação de respostas).
