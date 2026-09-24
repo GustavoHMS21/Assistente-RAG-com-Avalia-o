@@ -29,7 +29,7 @@ Fontes verificadas localmente
 - Sentence Transformers
 - `paraphrase-multilingual-MiniLM-L12-v2`
 - Ollama (servidor local de LLMs)
-- Modelo `qwen3.5:4b`
+- Modelo `qwen3.5:2b`
 - Streamlit
 - unittest
 
@@ -95,7 +95,7 @@ streamlit run app.py
 ## Requisitos locais
 
 - [Ollama](https://ollama.com) instalado e em execução.
-- Modelo baixado com `ollama pull qwen3.5:4b`.
+- Modelo baixado com `ollama pull qwen3.5:2b`.
 
 ## Próxima etapa
 

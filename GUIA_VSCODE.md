@@ -22,7 +22,7 @@ O projeto usa o [Ollama](https://ollama.com) rodando localmente, sem necessidade
 2. Baixe o modelo usado pelo projeto:
 
 ```powershell
-ollama pull qwen3.5:4b
+ollama pull qwen3.5:2b
 ```
 
 Opcionalmente, o `.env` pode conter um endereço diferente do padrão:

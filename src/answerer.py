@@ -11,7 +11,8 @@ from src.settings import get_ollama_host
 
 
 # Define o modelo local executado pelo Ollama para gerar as respostas.
-DEFAULT_OLLAMA_MODEL = "qwen3.5:4b"
+# Usa a variante 2b: bem mais rápida em CPU que a 4b, com qualidade ainda razoável.
+DEFAULT_OLLAMA_MODEL = "qwen3.5:2b"
 
 # Define o limite inicial abaixo do qual a evidência será considerada insuficiente.
 DEFAULT_MIN_RELEVANCE_SCORE = 0.35
